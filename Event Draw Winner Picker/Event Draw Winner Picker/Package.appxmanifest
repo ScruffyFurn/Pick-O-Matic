@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="073f8ddf-e974-4c8e-863a-bd56376b7e73" Publisher="CN=Michael" Version="1.0.0.0" />
+  <Properties>
+    <DisplayName>Event Draw Winner Picker</DisplayName>
+    <PublisherDisplayName>Mickey Mac</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="Event_Draw_Winner_Picker.App">
+      <VisualElements DisplayName="Event Draw Winner Picker" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="Event Draw Winner Picker" ForegroundText="light" BackgroundColor="#464646">
+        <DefaultTile ShowName="allLogos" />
+        <SplashScreen Image="Assets\SplashScreen.png" />
+      </VisualElements>
+    </Application>
+  </Applications>
+</Package>
